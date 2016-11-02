@@ -26,13 +26,13 @@
 							<a href="http://bbs.xiaolajiao.com/thread-13291-1-1.html" target="_blank">(账号不能登陆？请点击)</a>
 						</span>
 					</h4>
-					<form  name="formLogin" action="passport.php" method="post" id="formLogin">
+					<form  name="formLogin"  id="formLogin">
 						<div class="login_tdon" >
-							<input name="username" id="login_username" type="text" value="邮箱/手机号码/用户名" class="inputBg input_kuang4">
+							<input name="username" id="login_username" type="text" placeholder="邮箱/手机号码/用户名" class="inputBg input_kuang4">
 						    <span class="error"  id="login_usernameTip"></span>
 						</div>
 						<div class="login_tdon" id="pw">
-							<input type="text" value="密码" id="spwd" class="inputBg input_kuang4 disText" maxlength="25" style="display: block;">
+							<input type="text" placeholder="密码" id="spwd" class="inputBg input_kuang4 disText" maxlength="25" style="display: block;">
 						    <input name="password" type="password" value="" id="login_password" class="inputBg input_kuang4" maxlength="25" autocomplete="off" style="display: none;">
 						    <span id="login_passwordTip"></span>
 						</div>
@@ -84,4 +84,59 @@
 		</div>
 	</div>
 </body>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	var user = $('#login_username');
+	var PW = $('#spwd');
+	var sub = $('submit1');
+
+
+
+	// 获取用户表查找是否已注册用户
+	$.ajax({
+		type:"get",
+		url:"../php/code/loading.php",
+		async:true,
+		success: function(obj){
+			 var my = JSON.parse(obj);
+			 console.log(my);
+			 sub.on("click",function(){
+			 	// for (var i = 0; i < my.length; i++) {
+			 	// 	if (user[0].value == my[0].user&&PW[0].value == my[0].PW) {
+			 			 window.location.assign("www.xiaolajiao.com"); 
+			 	// 	}
+			 	// }
+			 	// alert("账号或者密码错误");
+			 	
+			 })
+		}
+	})
+</script>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
