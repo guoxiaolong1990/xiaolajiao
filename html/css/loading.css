@@ -1,0 +1,74 @@
+/*格式化样式*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; color: #656d78;}
+a:hover { text-decoration:none; cursor: pointer;}
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; } 
+body{ font-size: 14px; line-height: 20px; color: #656d78; background: #f2f2f2;}
+form{ border: none; }
+input{ font-size: 14px; line-height: 20px; color: #f5f7fa; background: #f5f7fa; }
+label{ cursor: default; }
+/*顶部logo部分*/
+.header_bg2{
+	padding-top: 25px;
+	height: 75px;
+	background: #ececec;
+	border-bottom: 1px solid #d9d9d9;
+}
+.logo_user{
+	width: 900px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+/*内容部分*/
+.block{ width: 950px; margin: 0 auto;}
+.usBox{ width: 904px; margin: 0 auto; background: url(../img/loading/user-bg.jpg) 0 80px no-repeat; padding-top: 80px; height: 460px; position: relative; }
+.login_form{width: 378px; float: right; min-height: 402px; background: url(../img/loading/login-bg.png) left top no-repeat; margin-right: 20px; display: inline;}
+.usBox_1{ width: 287px; float: right; padding: 0 45px; }
+.usBox_1 h4{ color: #000; height: 22px; line-height: 22px; padding: 30px 0; font-weight: bolder; font-size: 16px; }
+.usBox_1 h4 span{ font-size: 12px;  }
+.inputBg{ border: 1px solid #ccc; float: left; font-size: 14px; color: #999; transition: all 0.5s esae-in;}
+.input_kuang4{ height: 30px; line-height: 30px; background: #fff; border: 1px solid #ccc; float: left; font-size: 14px; color: #999; transition: all 0.5s esae-in; }
+.usBox .inputBg, .forgetpassword .inputBg{ border: 1px solid #e3e3e3; border-top:1px solid #ccc; width: 210px; height: 20px; line-height: 20px; padding: 8px 0; border-radius: 3px; box-shadow: 0 1px 1px white;  }
+.formLogin .login_tdon .inputBg{ width: 283px; }
+#formLogin .login_tdon span{ display: block; width: 100%; height: 25px; line-height: 25px; }
+.login_tdon .onError{ background: url('../img/loading/n.png') no-repeat left 4px; color: #dd5044; display: block; float: left; height: 16px; line-height: 16px; margin: 0; padding-left: 20px; vertical-align: middle;}
+.login_tdon{ width: 285px; height: 68px; }
+#formLogin .login_tdon .inputBg{ width: 283px; }
+.login_tdon2{ width: 285px; height: 40px; }
+#formLogin .login_tdon2 .left{ width: 73%; float: left; height: 65px; }
+#formLogin .login_tdon2 .left label{ font-size: 14px; font-weight: bold; height: 40px; color: #696969; }
+#formLogin .login_tdon2 .right{ width: 27%; float: right; margin-left: -3px; text-align: right; height: 65px; }
+#formLogin .login_tdon2 .right a{ color: #1d8ec8; font-size: 14px; }
+#submit1{ border: none; width: 100%; margin-top: -18px; }
+.portalmargin_top{ clear: both; }
+.btn-primary{ background: #d4251d; color: #fff; }
+.btn{ background: #e53931;; display: inline-block; margin-bottom: 0; font-size: 14px; height: 38px; line-height: 38px; text-align: center; cursor: pointer;border: 1px solid #e6e9ed; border-radius: 5px; color: white; padding: 0; width: 140px; font-weight: 600;}
+#formLogin .login_tdon3{ width: 285px; height: 40px; margin-top: 5px; }
+#formLogin .login_tdon3 .left{ width: 70%; float: left; height: 40px; }
+#formLogin .login_tdon3 .left span{ font-size: 14px; font-weight: bold; float: left; display: block; width: 110px; height: 35px; color: #696969; }
+#formLogin .login_tdon3 .left ul{ float: left; width: 78px; height: 18px;  }
+#formLogin .login_tdon3 .left ul li{ float: left; width: 26px; height: 26px; }
+#formLogin .login_tdon3 .left ul li a{ display: block; width: 18px; height: 18px; overflow: hidden; text-indent: -9999px; background: url(../img/loading/login-other2.png) no-repeat;  }
+#formLogin .login_tdon3 .left ul li a.qq{ background-position: 0 0; }
+#formLogin .login_tdon3 .left ul li a.weibo{ background-position: -26px 0; }
+#formLogin .login_tdon3 .left ul li a.zfb{ background-position: -55px 0; }
+#formLogin .login_tdon3 .left ul li a.qq:hover{ background-position: 0 -18px; }
+#formLogin .login_tdon3 .left ul li a.weibo:hover{ background-position: -26px -18px; }
+#formLogin .login_tdon3 .left ul li a.zfb:hover{ background-position: -55px -18px; }
+#formLogin .login_tdon3 .right{ width: 30%; float: right; margin-left: -3px; text-align: right; height: 40px;  }
+#formLogin .login_tdon3 .right a{ color: #1d8ec8; font-size: 14px; }
+
+
+/*清浮动分割线*/
+.blank{ height: 10px; line-height: 10px; clear: both; visibility: hidden; }

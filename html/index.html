@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>小辣椒官方网站</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/head.css">
+	<link rel="stylesheet" type="text/css" href="css/content.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
+</head>
+<body>
+<!-- 首页顶部悬浮标题栏 -->
+	<div class="site-header">
+		<div class="site-header-relative">
+			<a href=""><div class="site-header-logo"></div></a>
+			<div class="site-header-nav">
+				<ul>
+					<li class="nav-phone"><a href="">红辣椒手机</a><div class="navli"></div></li>
+					<li class="nav-phone"><a href="">小辣椒手机</a><div class="navli"></div></li>
+					<li><a href="http://localhost/xiaolajiao/html/loading.html"">服务</a></li>
+					<li><a href="http://bbs.xiaolajiao.com/default.php">社区</a></li>
+					<li><a href="http://www.xiaolajiao.com/activity/buy/">分期</a></li>
+				</ul>
+			</div>	
+			<!-- 悬浮标题栏右侧 -->
+			<div class="site-header-right">
+			    <div class="site-header-search">
+				<form id="xlj-search" class="xlj-search-form clearfix" action="search.php" method="get">
+					<input class="search-submit" type="submit" value="">
+					<div class="search-input-box">
+						<input class="search-input" placeholder="" type="text" value="" name="keywords" >
+				    </div>
+				</form>
+			    </div>
+			    
+			    
+			    <div class="site-header-cart">
+					<a href="" id="minCart"><i class="icon2"></i></a>
+			    </div>
+			    
+			    <div class="site-header-login" id="asynlogin">
+			    <i class="icon3"></i>
+			    <p>
+			    	<a id="login-a" href="http://localhost/xiaolajiao/html/loading.html">登陆</a>
+			    	<a id="register-a" href="">注册</a>
+			    </p>
+		    </div>
+	    </div>
+		</div>
+	</div>
+	
+	<!--轮播图<-->
+	<div class="swiper-container" >
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><a href=""><img src="img/turn1.jpg"/></a></div>
+			<div class="swiper-slide"><a href=""><img src="img/turn2.jpg"/></a></div>
+			<div class="swiper-slide"><a href=""><img src="img/turn3.jpg"/></a></div>
+			<div class="swiper-slide"><a href=""><img src="img/turn4.jpg"/></a></div>
+			<div class="swiper-slide"><a href=""><img src="img/turn5.jpg"/></a></div>
+			</div>
+		<div class="swiper-pagination" style="margin:none"></div>
+		<!-- 侧边栏表单 -->
+		<div class="side-list">
+			<ul>
+				<li class="side-list-myli"><div class="side-list-box"><h3>红辣椒手机</h3><a href="">红辣椒Note3</a><a href="">红辣椒"金"典</a><br><a href="">红辣椒Note3 Pro</a><a href="">红辣椒XL</a></div><div class="side-list-li"></div></li>
+				<li class="side-list-myli"><div class="side-list-box"><h3>小辣椒手机</h3><a href="">小辣椒PLAYER</a><a href="">小辣椒S31</a><br><a href="">小辣椒老人机</a><a href="">小辣椒X6 Pro</a></div><div class="side-list-li"></div></li>
+				<li class="side-list-myli"><div class="side-list-box"><h3>专用配件</h3><a href="">电池</a><a href="">贴膜</a><a href="">保护套/保护壳</a></div><div class="side-list-li"></div></li>
+				<li class="side-list-myli"><div class="side-list-box"><h3>通用配件</h3><a href="">耳机</a><a href="">数据线</a><a href="">充电器</a><a href="">存储卡</a></div><div class="side-list-li"></div></li>
+				<li class="side-list-myli"><div class="side-list-box"><h3>生活周边</h3><a href="">行李箱</a></div><div class="side-list-li"></div></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- 小辣椒明星产品	 -->
+	<div class="star-goods-list">
+		<h2>小辣椒明星产品</h2>
+		<div class="star-move">
+            <a class="star-move-left" href="javascript:void(0)">&lt;</a>
+            <a class="star-move-right" href="javascript:void(0)">&gt;</a>
+        </div>
+        <div class="star-goods">
+        	<ul>
+        		<li>
+        			<div class="star-goods-li"></div>
+        		</li>
+        		<li>
+        			<div class="star-goods-li"></div>
+        		</li>
+        		<li>
+        			<div class="star-goods-li"></div>
+        		</li>
+        		<li>
+        			<div class="star-goods-li"></div>
+        		</li>
+        		<li>
+        			<div class="star-goods-li"></div>
+        		</li>
+        	</ul>
+        </div>
+	</div>
+
+	<!-- 精选配件 -->
+	<div class="selection-parts-list">
+		<h2>精选配件</h2>
+        <div class="selection-parts">
+        	<div class="selection-parts-left"></div>
+        	<div class="selection-parts-right">
+        		<ul>
+        			<li class="selection-parts-li"></li>
+        			<li class="selection-parts-li"></li>
+        			<li class="selection-parts-li"></li>
+        			<li class="selection-parts-li"></li>
+        			<li class="selection-parts-li"></li>
+        			<li class="selection-parts-li"></li>
+        		</ul>
+        	</div>
+        </div>
+	</div>
+
+	<!-- 小辣椒特惠及套餐 -->
+	<div class="preferential-subarea">
+    	<h2>小辣椒特惠及套餐</h2>
+        <a class="preferential-subarea-more" href="###">查看全部>></a>
+        
+    	<div class="etui">
+        	<div class="etui-left">
+        		<ul>
+        			<li class="etui-left-li"></li>
+        			<li class="etui-left-li"></li>
+        		</ul>
+        	</div>
+        	<div class="etui-right">
+        		<ul>
+        			<li class="etui-right-li"></li>
+        			<li class="etui-right-li"></li>
+        			<li class="etui-right-li"></li>
+        			<li class="etui-right-li"></li>
+        			<li class="etui-right-li"></li>
+        			<li class="etui-right-li"></li>
+        		</ul>
+        	</div>
+        </div>
+    </div>
+
+    <!-- 为你推荐 -->
+    <div class="recommend-for-your">
+		<h2>为你推荐</h2>
+		<a class="preferential-subarea-more" href="###">查看全部>></a>
+        <div class="recommend-big"></div>
+        <div class="etui-right">
+        	<ul>
+        		<li class="recommend-li"></li>
+        		<li class="recommend-li"></li>
+        		<li class="recommend-li"></li>
+        		<li class="recommend-li"></li>
+        		<li class="recommend-li"></li>
+        		<li class="recommend-li"></li>
+        	</ul>
+        </div>
+	</div>
+
+	<!-- 内容 -->
+	<div class="website-content">
+		<h2>内容</h2>
+		<div class="website-content-list">
+			<ul>
+				<li class="website-content-li"><a href="" class="con-title">热门内容</a></li>
+				<li class="website-content-li"><a href="" class="con-title">游戏</a></li>
+				<li class="website-content-li"><a href="" class="con-title">评测与视频</a></li>
+				<li class="website-content-li"><a href="" class="con-title">售后服务</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- 小辣椒底部内容 -->
+	<div class="xlj-footer footer-relative clearfix">
+    	<ul class="nums clearfix">
+			<li>
+				<a href="#" > <span class="nums1"></span> <strong> <label>7天</label> 退货保障 </strong> </a> 
+			</li>
+			<li>
+				<a href="#" > <span class="nums2"></span> <strong> <label>15天</label> 换货承诺 </strong> </a> 
+			</li>
+			<li>
+				<a href="#" > <span class="nums3"></span> <strong> <label>49元起</label> 全场免邮费 </strong> </a> 
+			</li>
+			<li class="last">
+				<a href="#" > <span class="nums4"></span> <strong> <label>200余家</label> 售后服务网点 </strong> </a> 
+			</li>
+		</ul>
+		<div class="footer-links clearfix">
+			<dl class="col-links col-links-first">
+				<dt>
+					帮助中心
+				</dt>
+				<dd>
+					<a rel="nofollow" href="http://www.xiaolajiao.com/article-217.html">支付方式</a> 
+				</dd>
+				<dd>
+					<a rel="nofollow" href="http://www.xiaolajiao.com/article-213.html">配送方式</a> 
+				</dd>
+				<dd>
+					<a rel="nofollow" href="http://www.xiaolajiao.com/article-208.html">购物指南</a> 
+				</dd>
+			</dl>
+			<dl class="col-links ">
+				<dt>
+					服务支持
+				</dt>
+				<dd>
+					<a rel="nofollow" href="http://bbs.xiaolajiao.com/5.php">相关下载</a> 
+				</dd>
+				<dd>
+					<a rel="nofollow" href="http://www.xiaolajiao.com/article-220.html">售后政策</a> 
+				</dd>
+				<dd>
+					<a rel="nofollow" href="http://www.xiaolajiao.com/article-214.html">物流查询</a> 
+				</dd>
+			</dl>
+			<dl class="col-links ">
+				<dt>
+					小辣椒基地
+				</dt>
+				<dd>
+					<a rel="nofollow" href="http://www.xiaolajiao.com/poststation.html">服务网点</a> 
+				</dd>
+				<dd>
+					<a rel="nofollow" href="http://www.xiaolajiao.com/authorize.php">品牌授权商</a> 
+				</dd>
+				<dd>
+					<a rel="nofollow" href="http://www.xiaolajiao.com/poststation.php?act=line">线下合作零售店</a> 
+				</dd>
+			</dl>
+			<dl class="col-links ">
+				<dt>
+					关于小辣椒
+				</dt>
+				<dd>
+					<a rel="nofollow" href="http://www.xiaolajiao.com/article-205.html">加入我们</a> 
+				</dd>
+				<dd>
+					<a rel="nofollow" href="http://www.xiaolajiao.com/article-206.html">联系我们</a> 
+				</dd>
+				<dd>
+					<a rel="nofollow" href="http://www.xiaolajiao.com/article-201.html">了解小辣椒</a> 
+				</dd>
+			</dl>
+			<dl class="col-links ">
+				<dt>
+					关注我们
+				</dt>
+				<dd>
+					<a href="http://weibo.com/u/3811361823?topnav=1&wvr=5&topsug=1" rel="nofollow"><span class="sina"></span>新浪微博</a> 
+				</dd>
+				<dd class="kongjian">
+					<a href="http://t.qq.com/xiaolajiaoshouji2013" rel="nofollow"><span class="qq"></span>腾讯微博</a> 
+				</dd>
+				<dd>
+					<a href="http://bbs.xiaolajiao.com/" rel="nofollow"> <span class="bbs"></span>官方社区</a> 
+				</dd>
+			</dl>
+		<div class="col-contact">
+			<p class="phone">
+				400-166-5678
+			</p>
+			<p>
+				仅收市话费，周一至周日9:00-21:00
+			</p>
+			<a rel="nofollow" class="serive" href="" target="_blank" ><span></span>在线客服</a> 
+		</div>
+		</div>       
+		<div class="info ">
+			旗下网站：
+			<a href="http://xiaolajiaoshouji.tmall.com/" target="_blank" title="小辣椒天猫店" rel="nofollow">小辣椒天猫店</a>
+			<em></em>
+			<a href="http://www.189.cn/zx/yusun/" target="_blank" title="小辣椒电信店" rel="nofollow">小辣椒电信店</a>
+			<em></em>
+			<a href="http://mall.jd.com/index-1000001778.html" target="_blank" title="小辣椒京东店" rel="nofollow">小辣椒京东店</a>
+			<em></em>
+			<a href="http://search.suning.com/emall/search.do?keyword=%E5%B0%8F%E8%BE%A3%E6%A4%92%E6%89%8B%E6%9C%BA&amp;ci=undefined&amp;cityId=9051" target="_blank" title="小辣椒苏宁店" rel="nofollow">小辣椒苏宁店</a>
+			<em></em>
+			<br>
+			友情链接：
+	        <a href="http://www.xiaolajiao.com/article_cat-17.html" target="_blank" title="新闻资讯">新闻资讯</a><em></em>
+	        <a href="http://hong.xiaolajiao.com/" target="_blank" title="红辣椒">红辣椒</a><em></em>
+	        <a href="http://www.189.cn/" target="_blank" title="中国电信">中国电信</a><em></em>
+	        <a href="http://www.xiaolajiao.com/category-42-b0.html" target="_blank" title="小辣椒配件">小辣椒配件</a><em></em>
+	        <a href="http://htcbbs.cnmo.com" target="_blank" title="手机中国">手机 <a href="http://www.gxjbsj.com" target="_blank" title="性价比手机">性价比手机</a><em></em>
+	        <a href="http://apk.3310.com" target="_blank" title="安卓市场">安卓市场</a><em></em>
+	                  	<li></li>
+	 		© <a href="http://www.xiaolajiao.com">小辣椒手机官网</a> 粤ICP证B2-20130549号 粤ICP备12053227号-3号
+	 		<p>版权所有：深圳小辣椒科技有限责任公司 </p>
+	      
+	  		<img alt="小辣椒手机官网" src="http://theme.xiaolajiao.com/themes/newxlj/images/footer_img.gif?v=20160707">
+	    </div>
+	    <div class="believe">
+			<a target="_blank" href="http://www.315online.com.cn/member/315130034.html"><img alt="诚信网站" src="http://theme.xiaolajiao.com/themes/newxlj/images/save.jpg?v=20160707" style="border:none;"></a> 
+
+		</div>
+	</div>
+</body>
+<script src="js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/function.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

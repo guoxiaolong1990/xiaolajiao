@@ -1,0 +1,60 @@
+/*格式化样式*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; color: #656d78;}
+a:hover { text-decoration:none; cursor: pointer;}
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; } 
+body{ font-size: 14px; line-height: 20px; color: #656d78; background: #f2f2f2;}
+form{ border: none; }
+input{ font-size: 14px; line-height: 20px; color: #f5f7fa; background: #f5f7fa; }
+label{ cursor: default; }
+
+/*顶部内容*/
+body{ font-size: 14px; font-weight: lighter; color: #555;}
+.content{ position: relative; width: 100%; overflow: hidden; }
+.content-01{ position: relative; background:url(http://theme.xiaolajiao.com/images/upload/image/201607191012/bg.jpg) center center no-repeat; height: 877px; }
+.relative{ position: relative; margin:0 auto; width: 1034px; z-index: 3; }
+.content-01 .text{ position: absolute; top: 330px; left: 225px; }
+.content-01 .text h2{ font-size: 72px; line-height: 84px; text-align: center; color: #fff; font-weight: 500; }
+.content-01 .text span{ display: block; line-height: 50px; font-size: 22px; text-align: center; color: #fff; font-weight: 400; }
+.content-01 .text .button{ margin: 32px auto 0; }
+.button{ display: block; width: 347px; height: 61px; background: #cd282d; font-size: 20px; line-height: 61px; color: #fff; text-align: center; border-radius: 30px; font-weight: 600; }
+.content-01 .text .aa{ display: inline-block; margin: 122px 0 0 238px; font-size: 16px; color: #fff; }
+.content-01 .text .aa>img{ display: block; margin: 5px 0 0 27px; }
+.nav-header{ position: relative; z-index: 2; width: 100%; background: rgba(0,0,0,.5); height: 73px; }
+.nav-header ul li{ float: left; font-size: 18px; height: 73px; width: 130px; text-align: center; }
+.nav-header ul li a{ color: #e5e5e5; display: block; font-weight: 600; }
+.content-02{ position: relative; height: 832px; width: 100%; background: #f2f2f2; }
+.content-02 .detail{ color: #000; width: 913px; margin: 0 auto; clear: both; overflow: hidden; height: 265px; }
+.content-02 .detail h3{ font-size: 46px; line-height: 106px; text-align: center; }
+.content-02 .detail .detail-left{ float: left; width: 430px; }
+.content-02 .detail .detail-left>p{ margin-bottom: 16px; }
+.content-02 .detail p{ font-size: 18px; line-height: 24px;  }
+.content-02 .detail .detail-right{ float: right; width: 430px; }
+.content-02 .detail .detail-right>p{ font-size: 18px; line-height: 24px; }
+.content-02 .detail .detail-left{ float: left; width: 430px; }
+.content-02 .detail .detail-left>p{ margin-bottom: 16px; }
+.content-02 .step{ position: relative; background: url(http://theme.xiaolajiao.com/images/upload/image/201607191012/conputer.png) center center no-repeat; margin:12px 0 0 1px; width: 1033px; height: 764px; overflow: hidden;}
+.content-02 .btn-left{ position: absolute; width: 40px; background: url(http://theme.xiaolajiao.com/images/upload/image/201607191012/btn.png); height: 69px; top: 531px; background-position: 0 0; left: 68px; opacity: 0.4; cursor: pointer; }
+.content-02 .btn-right{ position: absolute; width: 40px; background: url(http://theme.xiaolajiao.com/images/upload/image/201607191012/btn.png); height: 69px; top: 531px; background-position: -44px 0; left: 67px; opacity: 0.4; cursor: pointer; }
+.content-03{ position: relative; height: 430px; width: 100%; background: red; }
+.content-03 .text{ position: absolute; top: 233px; left: 241px; }
+.content-03 h3{ color: #010101; font-size: 46px; line-height: 60px; }
+.content-03 .button{ margin: 34px auto 0; background: #f55453; border: 2px solid #fff; width: 343px; }
+.button{ display: block; width: 347px; height: 61px; background: #cd282d; font-size: 20px; line-height: 61px; color: #fff; text-align: center; border-radius: 30pc; font-weight: 600; }
+
+
+
+
+
+

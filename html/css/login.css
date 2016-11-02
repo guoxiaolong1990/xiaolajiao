@@ -1,0 +1,52 @@
+/*格式化样式*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; color: #656d78;}
+a:hover { text-decoration:none; cursor: pointer;}
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+table tr{ height: 50px; }
+body{ font-size: 14px; line-height: 20px; color: #656d78; } 
+/*顶部内容*/
+.header_bg2{ padding-top: 25px; height: 75px; background: #ececec; border-bottom: 1px solid #d9d9d9; }
+.logo_user{ width: 900px; margin:0 auto; padding: 0 30px; }
+.usBox{ width: 904px; height: auto; margin: 0 auto; background: url(img/loading/user-bg.jpg) 0 80px no-repeat; padding-top: 80px; position: relative; }
+.suc_kuang{ background: #f9f9f9; }
+.usBox_3{ height: 513px; border: 1px solid #dadada; border-bottom: none; }
+.h4_suc{ margin: 0 0 10px 30px; padding-top: 20px; font-size: 22px; color: #d4251d; }
+.suc_p{ padding: 0 0 20px 30px; border-bottom: 1px dashed #E3E3E3; color: #999; margin-bottom: 20px; }
+.cor_yellow{ color: #d4251d; text-decoration: underline; }
+.usBox_3 .td2{ font-size: 14px; color: #000; font-weight: bold;  padding-right: 12px;}
+.usBox .inputBg, .forgetpassword .inputBg{ border: 1px solid #e3e3e3; border-top: 1px solid #ccc; width: 210px; height: 20px; line-height: 20px; padding: 8px 0; border-radius: 3px; box-shadow: 0 1px 1px white; }
+.input_kuang2{ height: 30px; line-height: 30px; background: #fff; border: 1px solid #ccc; float: left; font-size: 14px; color: #333; padding: 0 5px 0 5px; transition: all 0.5s ease-in;}
+.inputBg{ border: 1px solid #ccc; height: 25px; line-height: 25px; color: #666; text-align: 5px; }
+.ajax_error .error_tip{ display: block; float: left; background: url(img/loading/n.png); padding-left: 20px; color: #333; }
+.check_tips{ margin-top: 11px; margin-left: 10px; vertical-align: middle; height: 16px; line-height: 36px; background: no-repeat; }
+.usBox_3 .td2{ font-size: 14px; color: #000; font-weight: bold; }
+.usBox .inputBg, .forgetpassword .inputBg{ border: 1px solid #e3e3e3; border-top: 1px solid #ccc; width: 210px; height: 20px; line-height: 20px; padding: 8px 0; border-radius: 3px; box-shadow: 0 1px 1px white;  }
+.codeChange{ height: 24px; line-height: 35px;  }
+.input_kuang3{ width: 168px !important; height: 30px; line-height: 30px; background: #fff; border: 1px solid #ccc; float: left; font-size: 14px; color: #333; padding: 0 5px 0 5px; transition: all 0.5s ease-in }
+.mt_login2{ display: inline-block; zoom: 1; height: 38px; border: 1px solid #dadada; font-size: 14px; cursor: pointer; width: 273px; text-align: center; color: #333; font-weight: bold; background-position: 0 -40px; width: 120px; }
+.getCode{ width: 120px; margin-left: 10px; }
+.input_kuang{ display: inline-block; height: 30px; line-height: 30px; background: #fff; border: 1px solid #ccc; float: left; font-size: 14px; color: #333; padding: 0 5px 0 5px; transition: all 0.5s ease-in; }
+.portalmargin_top{ clear: both; }
+.btn-primary{ background: #d4251d; border: 0 none; color: #fff }
+.btn{ background: red; display: inline-block; margin-bottom: 0; font-size: 14px; height: 38px; text-align: center; cursor: pointer; border: 1px solid #e6e9ed; border-radius: 5px; color: white; padding: 0; width: 140px; }
+.suc_botm{ background: url(img/loading/bom_cor.png) left bottom no-repeat;  height: 54px;}
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+.xlj-footer{ margin-top: 30px; height: 263px; border: 1px solid #dfdfdf; z-index: 1; }
+.footer-relative{ width: 1200px; margin: 0 auto; position: relative; }
+.xlj-footer .nums{ color: #656d78; font-size: 15px; border-bottom: 1px solid #dfdfdf; height: 79px; background: #f9faf9; }
+.xlj-footer .nums li{ float: left; width: 159px; border-right: 1px solid #dfdfdf; height: 39px; padding: 20px 70px; position: relative; }
+.xlj-footer .nums li.last{ width: 158px; border-right: 0;  }
+.xlj-footer .nums li span{  width: 41px; height: 39px; display: block; overflow: hidden; margin-left: 20px; }
+.xlj-footer .nums li strong{ display: inline-block; position: absolute; left: 140px; top: 20px; width: 110px; font-size: 16px; font-weight: normal; }
+.xlj-footer .nums li strong label{ display: block; }
+.nums1{ background: url(../img/bg_icon.png) no-repeat; background-position: 0px -85px; }
+.nums2{ background: url(../img/bg_icon.png) no-repeat; background-position: -40px -85px; }
+.nums3{ background: url(../img/bg_icon.png) no-repeat; background-position: -90px -85px; }
+.nums4{ background: url(../img/bg_icon.png) no-repeat; background-position: -138px -85px; }
+.xlj-footer .nums li a{ color: #666; }
+.xlj-footer .nums li a:hover{ color: red; }
+.xlj-footer .footer-links{ padding: 40px 0; overflow: hidden; color: #6d6d6d; }
+.xlj-footer .col-links-first{ margin-left: 0; }
+.xlj-footer .col-links{ float: left; display: inline; width: 165px; margin: 0 0 0 20px; border-right: 1px solid #dfdfdf; }
+.xlj-footer .col-links dt{ margin-bottom: 10px; font-size: 18px; color: #333; padding-left: 40px; }
+.xlj-footer .col-links dd{ margin: 0 0 6px; padding-left: 40px; }
+.xlj-footer .col-links dd a{ color: #6d6d6d; font-size: 12px; }
+.xlj-footer .col-contact{ float: right; width: 270px; text-align: center; }
+.xlj-footer .col-contact p{ margin: 0 0 15px; }
+.xlj-footer .col-contact p.phone{ margin-bottom: 5px; font-size: 29px; line-height: 1; color: #000; }
+.xlj-footer .serive{ width: 128px; height: 33px; background: #85c143; display: block; margin: 0 auto; line-height: 33px; color: #fff; }
+.xlj-footer .info{ color: #434a54; font-size: 12px; text-align: center; padding: 20px 0 30px 0; }
+.xlj-footer .info a{ color: #434a54; text-decoration: none; margin: 0 5px 0 5px; }
+.xlj-footer .info em{ display: inline-block; width: 1px; height: 12px; vertical-align: -2px; background: #ccd1d9 }
+.xlj-footer .info img{ display: block; width: 194px; margin: 0 auto; margin-top: 20px; }
+.xlj-footer .believe{ padding: 0 0 80px; text-align: center; }

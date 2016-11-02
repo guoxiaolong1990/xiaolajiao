@@ -1,0 +1,45 @@
+/*格式化样式*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; color: #fff;}
+a:hover { text-decoration:none; cursor: pointer;}
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; } 
+/*首页顶部悬浮标题栏*/
+.site-header{ position: relative; left: 0; top: 0; z-index: 5; width: 100%; background-color: rgba(0,0,0,0.2); }
+.site-header-relative{ position: relative; margin:0 auto; height: 68px; width: 1200px; }
+.site-header-logo{ float: left; width: 240px;  height: 68px; background: url(../img/logo.png) no-repeat left top; }
+.site-header-nav{ height: 68px; float: left; }
+.site-header-nav li{ list-style: none; float: left; padding: 0 18px; font-size: 18px; line-height: 68px; text-align: center; }
+.site-header-nav li:hover{ background: #5e0b0c; }
+.site-header-nav li a{ color: white; }
+/*悬浮栏右侧*/
+.site-header-right{ float: right; width: 448px; position: relative; height: 68px; }
+.site-header-search{ float: left; margin-top: 18px; overflow: hidden; position: relative; }
+.site-header-search form{ position: relative; width: 194px; height: 33px;}
+.site-header-search .search-submit{ position: absolute; right: 0; width: 40px; height: 33px; line-height: 90px; vertical-align: middle; z-index: 2; background: url(../img/common-icons.png) repeat -41px -73px; }
+.site-header-search .search-input-box{ position: relative; z-index: 1; left: 100%; transition: .5s;}
+.site-header-search .search-input{ width: 143px; height: 31px; vertical-align: middle; background: rgba(255,255,255,0); padding: 0 5px; color: white; z-index: 1; border: 1px solid #c3c2c2; border-right: transparent;}
+.site-header-cart{ position: relative; float: left; padding: 16px 27px 18px; width: 42px; height: 35px; padding-bottom: 15px; }
+.site-header-cart .icon2{ display: block; width: 40px; height: 33px; line-height: 90px; background: url(../img/common-icons.png) repeat -80px -72px; }
+.site-header-login{ float: left; }
+.site-header-login .icon3{ float: left; display: block; width: 40px; height: 33px; line-height: 90px; background: url(../img/common-icons.png) repeat 0px -72px; margin-top: 16px; }
+.site-header-login p{ float: left; line-height: 68px; color: white; white-space: nowrap; overflow: hidden; width: 110px;}
+.site-header-login a{ margin: 0 5px; padding: 20px 0; color: white; }
+.site-header-login a:hover{text-decoration: none; cursor: pointer; color: rgb(177,10,19);}
+.navli{ display: none; position: fixed; top: 68px; width: 100%; overflow: hidden; z-index: 6; left: 0; background: rgba(230,230,230,.9);}
+.navli ul{ display: block; margin: 0 auto; width: 1200px; }
+.navli ul li{ float: left; min-width: 198px; height: 230px; border-left: 1px solid #c4c4c4; overflow: hidden; padding: 0;}
+.navli ul li:hover{ background: rgba(249,250,249,.9); }
+.navli ul li img{ display: block; width: 137px; height: 155px; margin:21px auto 5px; }
+.navli ul li p{ font-size: 12px; text-align: center; color: #333; line-height: 20px;}
+.navli ul li span{ display: block; font-size: 10px; color: #c83f39; text-align: center; line-height: 20px;}

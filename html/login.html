@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>用户注册</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/foot.css">
+</head>
+<body style="background:#f2f2f2;">
+	<div class="header_bg2">
+		<div class="logo_user" >
+		    <a href="http://www.xiaolajiao.com/" name="top"><img  src="img/loading/logo.gif" /></a>
+		</div>
+	</div>
+	<div  style=" height:auto;" class="usBox">
+		<div class="suc_kuang">
+	  		<div class=" usBox_3 clearfix" >
+				<h4 class="h4_suc">注册小辣椒帐户</h4>
+				<p class="suc_p">小辣椒账户能使用小辣椒手机、小辣椒社区和小辣椒的其他服务。如果您已拥有小辣椒帐户，则可<a href="file:///Applications/XAMPP/xamppfiles/htdocs/xiaolajiao/html/loading.html" class="cor_yellow">在此登录</a></p>
+
+		  		<form name="formUser1" autocomplete="off" method="post" action="passport.php" id="tabdiv2" onsubmit="return RegisterCheckFormMobile();">
+			  		<table width="100%" cellspacing="3" cellpadding="5" border="0" align="left">
+			      	    <tbody>
+					        <tr>
+					            <td class="td2" width="20%" align="right">手机号码:</td>
+					            <td width="87%" id="phoneArea">
+									<input type="text" class="inputBg input_kuang2" id="inputmobile" size="20" name="username">
+						            <span class="check_tips error_tip" id="mobile_span"></span>
+					            </td>
+					        </tr>
+				            <tr>
+					            <td align="right" class="register_text_info">&nbsp;</td>
+					            <td style="color:#999;">非中国大陆用户输入手机号码时请增加区域前缀，如：台湾：+8869*******，香港：+8526*******</td>
+					        </tr>
+				            <tr>
+				                <td  class="td2" align="right">验证码:</td>
+				                <td id="captchastrArea">
+				               	    <input type="text" size="8" name="captcha_str" id="captcha_str" class="inputBg input_kuang2"  />&nbsp;
+				               		<img src="captcha_ver.php?" id="captcha_img_phone" alt="captcha" style="vertical-align: middle;cursor: pointer;" onClick="this.src='captcha_ver.php?'+Math.random()" />
+				                	<span class="codeChange">　<a href="javascript:changeCaptchaPhone();" >换一换</a></span> <span class="check_tips error_tip" id="captcha_str_code"></span>
+				                </td>
+				            </tr>
+					        <tr>
+					            <td class="td2" width="20%" align="right">手机验证码:</td>
+					            <td id="codeArea"><input type="text" class="inputBg input_kuang3" name="verification" id="verification" /> <input type="button" class="mt_login2 val_m getCode" style="float:left;" id="sendRegister" value="发送验证短信"/>  <span class="check_tips error_tip" id="code_span">请输入手机收到的验证码。如果一段时间没有收到，请重新获取</span></td>
+					        </tr>
+					        <tr>
+					            <td class="td2" width="20%" align="right">密码:</td>
+					            <td id="pwdArea">
+						            <input type="password" class="inputBg input_kuang" id="pwd1" name="password">
+						            <span class="check_tips error_tip" id="pwd1_code">密码长度6~16位，数字、字母、字符至少包含两种</span>
+					          	</td>
+					        </tr>
+					        <tr>
+					            <td class="td2" width="20%" align="right">确认密码:</td>
+					            <td id="pwdArea2">
+						            <input type="password" class="inputBg input_kuang" id="pwd2" name="confirm_password">
+						            <span class="check_tips error_tip" id="pwd2_code"></span>
+					            </td>
+					        </tr>
+					        <tr>
+					          <td>&nbsp;</td>
+					          <td align="left">
+						          <input type="hidden" value="act_register" name="act">
+					              <input type="hidden" value="1" name="reg_type">
+						          <input type="hidden" value="http%3A%2F%2Fwww.xiaolajiao.com%2Fservice.php%3Fact%3Dcontact%23server-online" name="callback">
+						          <input type="submit" class="btn btn-primary portalmargin_top" value="确认" name="Submit">
+					          </td>
+					        </tr>
+							<tr>
+					            <td>&nbsp;</td>
+					            <td><p class="p_cor_hui">点击“立即注册”，即表示您同意并愿意遵守小辣椒<a href="http://www.xiaolajiao.com/service/eula.html" class="cor_yellow" target="_blank">用户协议</a>和<a href="http://www.xiaolajiao.com/service/privacy.html" class="cor_yellow" target="_blank">隐私政策</a></p></td>
+					        </tr>
+				      	</tbody>
+				    </table>
+			   	</form>
+	  		</div>
+			<div class="suc_botm"></div>
+	    </div>
+	</div>
+
+	<!-- 小辣椒底部 -->
+	<div class="xlj-footer footer-relative clearfix">
+		<div class="info ">
+	 		© <a href="http://www.xiaolajiao.com">小辣椒手机官网</a> 粤ICP证B2-20130549号 粤ICP备12053227号-3号
+	 		<p>版权所有：深圳小辣椒科技有限责任公司 </p>
+	      
+	  		<img alt="小辣椒手机官网" src="http://theme.xiaolajiao.com/themes/newxlj/images/footer_img.gif?v=20160707">
+	    </div>
+	    <div class="believe">
+			<a target="_blank" href="http://www.315online.com.cn/member/315130034.html"><img alt="诚信网站" src="http://theme.xiaolajiao.com/themes/newxlj/images/save.jpg?v=20160707" style="border:none;"></a> 
+
+		</div>
+	</div>
+</body>
+</html>
